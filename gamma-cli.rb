@@ -5,6 +5,7 @@ class GammaCli < Formula
   sha256 "45bc012355984978f2e92ac496829f8ebc572f11fe0963f61dfadc64ae257b50"
 
   def install
+    system "mkdir", "-p", bin
     system "cp", "./gamma-cli", bin/"gamma-cli"
   end
 
