@@ -9,6 +9,6 @@ class GammaCli < Formula
   end
 
   test do
-    gamma-cli version
+    system "gamma-cli", "version"
   end
 end
