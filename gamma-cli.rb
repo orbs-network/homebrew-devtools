@@ -1,3 +1,5 @@
+# temporary install binary method, will switch to build from source before V1 release
+
 class GammaCli < Formula
   desc "Command line tools for Orbs Gamma personal blockchain"
   homepage "https://github.com/orbs-network/orbs-contract-sdk"
