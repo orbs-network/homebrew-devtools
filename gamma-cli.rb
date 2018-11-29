@@ -3,7 +3,7 @@
 class GammaCli < Formula
   desc "Command line tools for Orbs Gamma personal blockchain"
   homepage "https://github.com/orbs-network/orbs-contract-sdk"
-  url "https://github.com/orbs-network/homebrew-gamma-cli/releases/download/v0.5.1/gammacli-mac.tar.gz"
+  url "https://github.com/orbs-network/homebrew-gamma-cli/releases/download/v0.5.1/gammacli-mac-v0.5.1.tar.gz"
   sha256 "e23d23a9c05f1e01dbb1107d7fcd6deb477ecbd5651d62b55e45514e4a73ac37"
   head "https://github.com/orbs-network/homebrew-devtools"
 
