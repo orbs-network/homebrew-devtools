@@ -14,7 +14,7 @@ class GammaCli < Formula
   
   def post_install
     begin
-      system "gamma-cli upgrade-server 2>/dev/null"
+      system "gamma-cli upgrade-server 2>/dev/null 1>&2"
     rescue
       s = <<~EOS
         Docker is required to run Gamma server but is not installed on your machine.
