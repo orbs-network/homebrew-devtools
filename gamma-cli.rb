@@ -25,11 +25,14 @@ class GammaCli < Formula
     s = <<~EOS
 *********************************************************************************
                         Orbs Personal Blockchain - Gamma
+
   Gamma is a local Orbs blockchain instance for smart contract developers.
-        
+
   gamma-cli - The command line interface for interacting with Gamma server.
               Run 'gamma-cli help' to see all available commands.
+
 **********************************************************************************
+
     EOS
     ohai "Done", s
   end
