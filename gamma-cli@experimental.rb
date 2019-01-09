@@ -1,6 +1,6 @@
 # temporary install binary method, will switch to build from source before V1 release
 
-class GammaCli@experimental < Formula
+class GammaCliATexperimental < Formula
   desc "Command line tools for Orbs Gamma personal blockchain"
   homepage "https://github.com/orbs-network/orbs-contract-sdk"
   url "https://github.com/orbs-network/homebrew-devtools/releases/download/v0.6.0/gammacli-mac-v0.6.0.tar.gz"
