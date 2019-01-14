@@ -8,8 +8,8 @@ class GammaCli < Formula
   head "https://github.com/orbs-network/homebrew-devtools"
 
   devel do
-    url "https://github.com/orbs-network/homebrew-devtools/releases/download/v0.6.2/gammacli-mac-v0.6.2.tar.gz"
-    sha256 "515d176fb4a95f3b8fff3fdc0b93597e62c872d9bb50b38337156a212f02afae"
+    url "https://github.com/orbs-network/gamma-cli/releases/download/v0.6.3/gammacli-mac-v0.6.3.tar.gz"
+    sha256 "474ea50bdfa649fc2b712c77b10e8253b1172bef2c24d135a4c614d02303064c"
   end
   
   def install
