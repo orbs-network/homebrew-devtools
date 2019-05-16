@@ -4,11 +4,11 @@ class GammaCli < Formula
   desc "Command line tools for Orbs Gamma personal blockchain"
   homepage "https://github.com/orbs-network/orbs-contract-sdk"
   if OS.mac?
-    url "https://github.com/orbs-network/gamma-cli/releases/download/v0.6.7/gammacli-mac-v0.6.7.tar.gz"
-    sha256 "934418527b26f9a03cc90b3bfecebcfa43fdda8feee2c3352f6b6a7ed6b75824"
+    url "https://github.com/orbs-network/gamma-cli/releases/download/v0.7.0/gammacli-mac-v0.7.0.tar.gz"
+    sha256 "f06290d07dbb10ea6006be2cb274e14ba19e76f01d124eed50b1737723678a96"
   elsif OS.linux?
-    url "https://github.com/orbs-network/gamma-cli/releases/download/v0.6.7/gammacli-linux-x86-64-v0.6.7.tar.gz"
-    sha256 "8a8c70ae70096fa7b87095d2cd63d29b7e78bd449aa5cf4ef2dca3f4048f7d9c"
+    url "https://github.com/orbs-network/gamma-cli/releases/download/v0.7.0/gammacli-linux-x86-64-v0.7.0.tar.gz"
+    sha256 "599d1029c0e71df1737e08e03ed88f4de72d592684f6c7ef170d27c7862b9b47"
   else
     ohdie "Your operating system is not supported by this formula, if you feel this is a mistake please contract Orbs"
   end  
@@ -16,11 +16,11 @@ class GammaCli < Formula
 
   devel do
     if OS.mac?
-      url "https://github.com/orbs-network/gamma-cli/releases/download/v0.6.7/gammacli-mac-v0.6.7.tar.gz"
-      sha256 "934418527b26f9a03cc90b3bfecebcfa43fdda8feee2c3352f6b6a7ed6b75824"
+      url "https://github.com/orbs-network/gamma-cli/releases/download/v0.7.0/gammacli-mac-v0.7.0.tar.gz"
+      sha256 "f06290d07dbb10ea6006be2cb274e14ba19e76f01d124eed50b1737723678a96"
     elsif OS.linux?
-      url "https://github.com/orbs-network/gamma-cli/releases/download/v0.6.7/gammacli-linux-x86-64-v0.6.7.tar.gz"
-      sha256 "8a8c70ae70096fa7b87095d2cd63d29b7e78bd449aa5cf4ef2dca3f4048f7d9c"
+      url "https://github.com/orbs-network/gamma-cli/releases/download/v0.7.0/gammacli-linux-x86-64-v0.7.0.tar.gz"
+      sha256 "599d1029c0e71df1737e08e03ed88f4de72d592684f6c7ef170d27c7862b9b47"
     else
       ohdie "Your operating system is not supported by this formula, if you feel this is a mistake please contract Orbs"
     end  
