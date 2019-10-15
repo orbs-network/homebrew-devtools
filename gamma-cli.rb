@@ -34,11 +34,10 @@ class GammaCli < Formula
   def post_install
     begin
       ohai "Downloading latest version of Gamma server..."
-      system "gamma-cli upgrade-server 2>/dev/null"
+      system "gamma-cli upgrade-server"
     rescue
       s = <<~EOS
-        Docker is required to run Gamma server but is not installed on your machine.
-        Install it from: https://docs.docker.com/install/
+        An error occured when running gamma-cli.
       EOS
       opoo s  
     end
