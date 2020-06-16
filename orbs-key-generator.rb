@@ -5,11 +5,6 @@ class OrbsKeyGenerator < Formula
   url "https://github.com/orbs-network/orbs-key-generator/releases/download/v0.1.1/orbskeygenerator-mac-v0.1.1.tar.gz"
   sha256 "5d2e979981baa549738d80c45adf0197184ad5848c368eb775eb3338ce1126de"
   head "https://github.com/orbs-network/homebrew-devtools"
-
-  devel do
-    url "https://github.com/orbs-network/orbs-key-generator/releases/download/v0.1.1/orbskeygenerator-mac-v0.1.1.tar.gz"
-    sha256 "5d2e979981baa549738d80c45adf0197184ad5848c368eb775eb3338ce1126de"
-  end
   
   def install
     system "mkdir", "-p", bin
