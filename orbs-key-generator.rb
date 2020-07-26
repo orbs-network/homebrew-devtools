@@ -2,13 +2,13 @@
 class OrbsKeyGenerator < Formula
   desc "Command line tools for Orbs Network Key Generation"
   homepage "https://github.com/orbs-network/orbs-key-generator"
-  url "https://github.com/orbs-network/orbs-key-generator/releases/download/v0.1.1/orbskeygenerator-mac-v0.1.1.tar.gz"
-  sha256 "5d2e979981baa549738d80c45adf0197184ad5848c368eb775eb3338ce1126de"
+  url "https://github.com/orbs-network/orbs-key-generator/releases/download/v0.2.0/orbskeygenerator-mac-v0.2.0.tar.gz"
+  sha256 "f6204b47c8860e664bbd07d2b007ebc8e7e6adbb7bd1a0e2556976270fef5ec0"
   head "https://github.com/orbs-network/homebrew-devtools"
 
   devel do
-    url "https://github.com/orbs-network/orbs-key-generator/releases/download/v0.1.1/orbskeygenerator-mac-v0.1.1.tar.gz"
-    sha256 "5d2e979981baa549738d80c45adf0197184ad5848c368eb775eb3338ce1126de"
+    url "https://github.com/orbs-network/orbs-key-generator/releases/download/v0.2.0/orbskeygenerator-mac-v0.2.0.tar.gz"
+    sha256 "f6204b47c8860e664bbd07d2b007ebc8e7e6adbb7bd1a0e2556976270fef5ec0"
   end
   
   def install
