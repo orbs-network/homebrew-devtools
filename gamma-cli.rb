@@ -1,14 +1,17 @@
 # temporary install binary method, will switch to build from source eventually
 
+RELEASE_VERSION = "v0.11.0"
+HEAD_VERSION = "v0.11.0"
+
 class GammaCli < Formula
   desc "Command line tools for Orbs Gamma personal blockchain"
   homepage "https://github.com/orbs-network/orbs-contract-sdk"
   if OS.mac?
-    url "https://github.com/orbs-network/gamma-cli/releases/download/v0.10.0/gammacli-mac-v0.10.0.tar.gz"
-    sha256 "8f50a52ab54e16b62d0c0202be3bdb3205e266c787e4a0d08342c2d1885a3155"
+    url "https://github.com/orbs-network/gamma-cli/releases/download/#{RELEASE_VERSION}/gammacli-mac-#{RELEASE_VERSION}.tar.gz"
+    sha256 "91421649ccd1b23319968e9fe334567bd7d7d2d9097036706aaa43a6a1e7e956"
   elsif OS.linux?
-    url "https://github.com/orbs-network/gamma-cli/releases/download/v0.10.0/gammacli-linux-x86-64-v0.10.0.tar.gz"
-    sha256 "816ee6f48f47fbda19f00d503e084b582089fece932e464eabea41a41d3dcf03"
+    url "https://github.com/orbs-network/gamma-cli/releases/download/#{RELEASE_VERSION}/gammacli-linux-x86-64-#{RELEASE_VERSION}.tar.gz"
+    sha256 "cc2b242fc73524a37a9bf556880eaffa7dc7893104062e2b0ffaa927185cda37"
   else
     ohdie "Your operating system is not supported by this formula, if you feel this is a mistake please contract Orbs"
   end  
@@ -16,11 +19,11 @@ class GammaCli < Formula
 
   devel do
     if OS.mac?
-      url "https://github.com/orbs-network/gamma-cli/releases/download/v0.10.0/gammacli-mac-v0.10.0.tar.gz"
-      sha256 "8f50a52ab54e16b62d0c0202be3bdb3205e266c787e4a0d08342c2d1885a3155"
+      url "https://github.com/orbs-network/gamma-cli/releases/download/#{HEAD_VERSION}/gammacli-mac-#{HEAD_VERSION}.tar.gz"
+      sha256 "91421649ccd1b23319968e9fe334567bd7d7d2d9097036706aaa43a6a1e7e956"
     elsif OS.linux?
-      url "https://github.com/orbs-network/gamma-cli/releases/download/v0.10.0/gammacli-linux-x86-64-v0.10.0.tar.gz"
-      sha256 "816ee6f48f47fbda19f00d503e084b582089fece932e464eabea41a41d3dcf03"
+      url "https://github.com/orbs-network/gamma-cli/releases/download/#{HEAD_VERSION}/gammacli-linux-x86-64-#{HEAD_VERSION}.tar.gz"
+      sha256 "cc2b242fc73524a37a9bf556880eaffa7dc7893104062e2b0ffaa927185cda37"
     else
       ohdie "Your operating system is not supported by this formula, if you feel this is a mistake please contract Orbs"
     end  
