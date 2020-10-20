@@ -17,7 +17,7 @@ class GammaCli < Formula
   end  
   head "https://github.com/orbs-network/homebrew-devtools"
 
-  devel do
+  head do
     if OS.mac?
       url "https://github.com/orbs-network/gamma-cli/releases/download/#{HEAD_VERSION}/gammacli-mac-#{HEAD_VERSION}.tar.gz"
       sha256 "91421649ccd1b23319968e9fe334567bd7d7d2d9097036706aaa43a6a1e7e956"
